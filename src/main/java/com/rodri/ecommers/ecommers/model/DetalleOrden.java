@@ -23,7 +23,7 @@ public class DetalleOrden {
         this.precio = precio;
         this.total = total;
     }
-
+    
     @Override
     public String toString() {
         return "{" +
