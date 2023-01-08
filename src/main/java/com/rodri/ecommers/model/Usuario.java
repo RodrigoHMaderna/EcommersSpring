@@ -26,6 +26,7 @@ public class Usuario {
     private String direccion;
     private String telefono;
     private String tipo;
+    private String password;
 
     @OneToMany(mappedBy = "usuario")
     private List<Producto> productos;
@@ -38,7 +39,8 @@ public class Usuario {
     }
 
 
-    public Usuario(Integer id, String nombre, String username, String email, String direccion, String telefono, String tipo) {
+
+    public Usuario(Integer id, String nombre, String username, String email, String direccion, String telefono, String tipo, String password) {
         this.id = id;
         this.nombre = nombre;
         this.username = username;
@@ -46,7 +48,10 @@ public class Usuario {
         this.direccion = direccion;
         this.telefono = telefono;
         this.tipo = tipo;
+        this.password = password;
+ 
     }
+    
  
 
 
