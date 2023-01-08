@@ -1,4 +1,4 @@
-package com.rodri.ecommers.ecommers;
+package com.rodri.ecommers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
